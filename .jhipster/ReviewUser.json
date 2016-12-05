@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nickName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20161205053047",
+    "entityTableName": "review_user",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

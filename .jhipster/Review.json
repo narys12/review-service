@@ -1,0 +1,41 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "comment",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "created",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "published",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "star",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "pros",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cons",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20161205053048",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "review",
+    "pagination": "no",
+    "microserviceName": "review",
+    "searchEngine": false
+}

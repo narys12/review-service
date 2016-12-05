@@ -1,0 +1,15 @@
+
+entity ReviewUser {
+	nickName String required
+}
+
+entity Review {
+	reviewId Integer required,
+    title String, 
+    comment String,
+    created ZonedDateTime,
+    published ZonedDateTime, 
+    star Integer, 
+    pros String,
+    cons String
+}
